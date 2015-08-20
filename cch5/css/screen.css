@@ -1,0 +1,623 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/screen.scss */
+body {
+  background-color: #F3F2F2;
+}
+
+/* line 17, ../sass/screen.scss */
+#header {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+}
+
+/* line 24, ../sass/screen.scss */
+#headerleft {
+  float: left;
+  width: 400px;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* line 30, ../sass/screen.scss */
+#headerright {
+  width: 300px;
+  float: right;
+}
+
+/* line 34, ../sass/screen.scss */
+#hr1 {
+  height: 50px;
+}
+/* line 36, ../sass/screen.scss */
+#hr1 #hr11 {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+/* line 41, ../sass/screen.scss */
+#hr1 #hr12 {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+/* line 46, ../sass/screen.scss */
+#hr1 img {
+  float: left;
+}
+/* line 49, ../sass/screen.scss */
+#hr1 p {
+  float: left;
+  padding: 5px 0 5 5;
+  height: 30px;
+  text-align: center;
+}
+
+/* line 56, ../sass/screen.scss */
+#hr2 {
+  float: right;
+  width: 370px;
+  height: 70px;
+}
+/* line 60, ../sass/screen.scss */
+#hr2 li {
+  width: 100px;
+  float: left;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 67, ../sass/screen.scss */
+#hr2 .login {
+  position: relative;
+  top: 15px;
+  color: black;
+}
+/* line 71, ../sass/screen.scss */
+#hr2 .login:hover {
+  text-decoration: none;
+  color: #E14C2A;
+}
+
+/* line 77, ../sass/screen.scss */
+#navigation {
+  clear: right;
+  width: 1200px;
+  margin: 30 auto;
+  height: 80px;
+  background-color: white;
+}
+/* line 83, ../sass/screen.scss */
+#navigation ul {
+  padding-top: 10px;
+  float: left;
+}
+/* line 87, ../sass/screen.scss */
+#navigation .b1 {
+  border-right: 2px solid #CACACA;
+}
+/* line 90, ../sass/screen.scss */
+#navigation li {
+  float: left;
+  height: 60px;
+  padding: 20 30 20 30;
+}
+/* line 94, ../sass/screen.scss */
+#navigation li a {
+  color: black;
+  letter-spacing: 3px;
+  font-family: impact;
+  font-size: 20px;
+}
+/* line 103, ../sass/screen.scss */
+#navigation form {
+  float: right;
+  height: 80px;
+  padding: 25px;
+}
+/* line 107, ../sass/screen.scss */
+#navigation form input {
+  height: 30px;
+}
+
+/* line 112, ../sass/screen.scss */
+#top {
+  clear: right;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 117, ../sass/screen.scss */
+#toptitle {
+  width: 100px;
+  height: 30px;
+  padding: 7px;
+  background-color: black;
+  margin-left: 10px;
+}
+/* line 123, ../sass/screen.scss */
+#toptitle p {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* line 129, ../sass/screen.scss */
+#topbox {
+  background-color: white;
+  height: 300px;
+  padding: 40 20 10 20;
+}
+/* line 133, ../sass/screen.scss */
+#topbox .title1 {
+  font-size: 20px;
+  font-family: Comic Sans MS,cursive,sans-serif;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* line 140, ../sass/screen.scss */
+#tl1 {
+  float: left;
+  width: 120px;
+  padding-right: 30px;
+  padding-left: 20px;
+  border-right: 2px solid #F3F2F2;
+}
+/* line 146, ../sass/screen.scss */
+#tl1 p {
+  text-align: right;
+  color: black;
+}
+
+/* line 151, ../sass/screen.scss */
+#tl2 {
+  float: left;
+  width: 120px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+/* line 156, ../sass/screen.scss */
+#tl2 p {
+  text-align: right;
+  color: black;
+}
+
+/* line 163, ../sass/screen.scss */
+#topcenter #tc1 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 163, ../sass/screen.scss */
+#topcenter #tc2 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 163, ../sass/screen.scss */
+#topcenter #tc3 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 168, ../sass/screen.scss */
+#topcenter .text1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 168, ../sass/screen.scss */
+#topcenter .text2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 168, ../sass/screen.scss */
+#topcenter .text3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 168, ../sass/screen.scss */
+#topcenter .text4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 173, ../sass/screen.scss */
+#topcenter img {
+  width: 120px;
+  display: block;
+  margin: 10 auto 20 auto;
+}
+/* line 178, ../sass/screen.scss */
+#topcenter .text1 {
+  font-size: 25px;
+}
+/* line 181, ../sass/screen.scss */
+#topcenter .text2 {
+  color: #F3262D;
+  font-family: cursive;
+}
+/* line 185, ../sass/screen.scss */
+#topcenter .text4 {
+  color: black;
+}
+
+/* line 190, ../sass/screen.scss */
+#topright #tr1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 194, ../sass/screen.scss */
+#topright .title2 {
+  font-size: 20px;
+  font-family: Comic Sans MS,cursive,sans-serif;
+  margin-bottom: 20px;
+}
+
+/* line 200, ../sass/screen.scss */
+#middle {
+  clear: left;
+  width: 1200px;
+  height: 750px;
+  margin: 30 auto;
+}
+/* line 205, ../sass/screen.scss */
+#middle h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* line 209, ../sass/screen.scss */
+#middle h2 {
+  font-size: 20px;
+}
+
+/* line 214, ../sass/screen.scss */
+#middleleft {
+  float: left;
+  width: 600px;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+/* line 219, ../sass/screen.scss */
+#middleleft .Timberland {
+  width: 550px;
+}
+/* line 222, ../sass/screen.scss */
+#middleleft #ml1 {
+  margin-top: 10px;
+  clear: left;
+  width: 550px;
+  position: relative;
+}
+/* line 228, ../sass/screen.scss */
+#middleleft #s1 {
+  position: absolute;
+  width: 170px;
+  left: 0px;
+}
+/* line 233, ../sass/screen.scss */
+#middleleft #s2 {
+  position: absolute;
+  width: 170px;
+  left: 191.33333px;
+}
+/* line 238, ../sass/screen.scss */
+#middleleft #s3 {
+  position: absolute;
+  width: 170px;
+  right: 0px;
+}
+
+/* line 244, ../sass/screen.scss */
+#middleright {
+  float: left;
+  width: 600px;
+  height: 750px;
+  padding-left: 30px;
+}
+
+/* line 250, ../sass/screen.scss */
+#mr1 {
+  clear: left;
+  height: 160px;
+  width: 570px;
+  margin: 0 auto;
+  border-bottom: 2px solid #CACACA;
+}
+/* line 256, ../sass/screen.scss */
+#mr1 #mr1left {
+  width: 400px;
+  float: left;
+}
+/* line 259, ../sass/screen.scss */
+#mr1 #mr1left #star {
+  float: left;
+}
+/* line 262, ../sass/screen.scss */
+#mr1 #mr1left #pricetag1 {
+  float: right;
+}
+/* line 265, ../sass/screen.scss */
+#mr1 #mr1left #pricetag2 {
+  width: 400px;
+  clear: left;
+}
+/* line 270, ../sass/screen.scss */
+#mr1 #mr1right {
+  width: 170px;
+  padding-left: 40px;
+  float: left;
+}
+/* line 274, ../sass/screen.scss */
+#mr1 #mr1right #pig {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+/* line 279, ../sass/screen.scss */
+#mr1 #mr1right p {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 287, ../sass/screen.scss */
+#mr2 {
+  clear: left;
+  width: 570px;
+  height: 400px;
+}
+/* line 291, ../sass/screen.scss */
+#mr2 #k1 {
+  padding-top: 20px;
+  text-align: right;
+}
+/* line 295, ../sass/screen.scss */
+#mr2 #k2 {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  float: right;
+}
+/* line 300, ../sass/screen.scss */
+#mr2 #k2 img {
+  height: 50px;
+}
+/* line 303, ../sass/screen.scss */
+#mr2 #k2 p {
+  height: 50px;
+  padding-top: 15px;
+  float: right;
+  text-align: right;
+}
+/* line 310, ../sass/screen.scss */
+#mr2 #dropdown {
+  clear: right;
+  width: 570px;
+  height: 50px;
+}
+/* line 314, ../sass/screen.scss */
+#mr2 #dropdown #dropdown1 {
+  float: right;
+}
+/* line 317, ../sass/screen.scss */
+#mr2 #dropdown #dropdown2 {
+  float: right;
+  margin-right: 20px;
+}
+/* line 321, ../sass/screen.scss */
+#mr2 #dropdown p {
+  margin-bottom: 5px;
+}
+
+/* line 326, ../sass/screen.scss */
+#adj {
+  clear: right;
+}
+/* line 328, ../sass/screen.scss */
+#adj #but1 {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 180px;
+}
+/* line 334, ../sass/screen.scss */
+#adj p {
+  clear: right;
+  text-align: right;
+}
+/* line 338, ../sass/screen.scss */
+#adj #ic {
+  float: right;
+  width: 240px;
+  padding: 10px;
+  height: 50px;
+  background-color: white;
+}
+/* line 344, ../sass/screen.scss */
+#adj #ic img {
+  width: 30px;
+}
+/* line 347, ../sass/screen.scss */
+#adj #ic p {
+  padding-top: 8px;
+  float: right;
+}
+
+/* line 353, ../sass/screen.scss */
+#bottom {
+  clear: right;
+  width: 1200px;
+  height: 464px;
+  margin: 30 auto 0 auto;
+}
+/* line 358, ../sass/screen.scss */
+#bottom .tab1 {
+  margin-right: 5px;
+  background-color: #F3262D;
+}
+/* line 361, ../sass/screen.scss */
+#bottom .tab1 a {
+  color: white;
+}
+/* line 364, ../sass/screen.scss */
+#bottom .tab1 a:hover {
+  color: black;
+}
+/* line 368, ../sass/screen.scss */
+#bottom .tab2 {
+  margin-right: 5px;
+  background-color: white;
+}
+/* line 371, ../sass/screen.scss */
+#bottom .tab2 a {
+  color: black;
+}
+
+/* line 376, ../sass/screen.scss */
+#textbox {
+  height: 400px;
+  background-color: white;
+  padding: 40 25 40 25;
+}
+/* line 380, ../sass/screen.scss */
+#textbox .p1 {
+  line-height: 120%;
+  margin-bottom: 25px;
+  color: grey;
+}
+/* line 385, ../sass/screen.scss */
+#textbox h3 {
+  font-size: 20px;
+}
+/* line 388, ../sass/screen.scss */
+#textbox h4 {
+  color: #F3262D;
+}
+/* line 391, ../sass/screen.scss */
+#textbox .text4 {
+  line-height: 150%;
+  font-weight: bold;
+  color: grey;
+}
+
+/* line 397, ../sass/screen.scss */
+#foot {
+  width: 1200px;
+  background-color: #F3262D;
+  padding-left: 30;
+  padding-right: 30;
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* line 405, ../sass/screen.scss */
+#footleft {
+  padding-top: 30px;
+}
+/* line 407, ../sass/screen.scss */
+#footleft .logo2 {
+  width: 280px;
+}
+
+/* line 411, ../sass/screen.scss */
+#footcenter {
+  height: 30px;
+  padding-top: 65px;
+}
+/* line 414, ../sass/screen.scss */
+#footcenter ul {
+  float: left;
+}
+/* line 417, ../sass/screen.scss */
+#footcenter .g {
+  border-right: 1px solid white;
+}
+/* line 420, ../sass/screen.scss */
+#footcenter li {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 424, ../sass/screen.scss */
+#footcenter li a {
+  color: white;
+}
+
+/* line 429, ../sass/screen.scss */
+#footright {
+  padding-top: 50px;
+}
+/* line 431, ../sass/screen.scss */
+#footright .i {
+  float: right;
+  margin-left: 10px;
+  width: 40px;
+}

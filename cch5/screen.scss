@@ -1,0 +1,436 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$main_color: #F3262D;
+$back_color: #F3F2F2;
+$font_list : Helvetica, Arial, sans-serif ;
+$origin_width:1200px;
+$auto_margin:0 auto;
+$variable : 1 !default ;
+body{
+	background-color:$back_color;
+}
+#header{
+	width:$origin_width;
+	height:120px;
+	margin:$auto_margin;
+	padding-top:20px;
+	position:relative;	 
+}
+#headerleft{
+	float:left;
+	width:400px;
+	position:absolute;
+	bottom: 0px;
+}
+#headerright{
+	width:300px;
+	float:right;
+}
+#hr1{
+	height:50px;
+	#hr11{
+		width:150px;
+		height:50px;
+		float:left;
+	}
+	#hr12{
+		width:150px;
+		height:50px;
+		float:left;
+	}
+	img{
+		float:left;
+	}
+	p{
+		float:left;
+		padding:5px 0 5 5;
+		height:30px;
+		text-align:center;
+	}
+}
+#hr2{
+	float:right;
+	width:370px;
+	height:70px;
+	li{
+		width:100px;
+		float:left;
+		margin-left:20px;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.login{
+		position:relative;
+		top:15px;
+		color:black;
+		&:hover{
+			text-decoration: none;
+			color:#E14C2A;
+		}
+	}
+}
+#navigation{
+	clear:right;
+	width:$origin_width;
+	margin:30 auto;
+	height:80px;
+	background-color:white;
+	ul{
+		padding-top:10px;
+		float:left;
+	}
+	.b1{
+		border-right:2px solid #CACACA;
+	}
+	li{
+		float:left;
+		height:60px;
+		padding:20 30 20 30;
+		a{
+			color:black;
+			letter-spacing:3px; 
+			font:{
+				family: impact;
+				size:20px;
+				}
+		}
+	}
+	form{
+		float:right;
+		height:80px;
+		padding:25px;
+		input{
+			height:30px;
+		}
+	}
+}
+#top{
+	clear:right;
+	width:$origin_width;
+	margin:$auto_margin;	
+}
+#toptitle{
+	width:100px;
+	height:30px;
+	padding:7px;
+	background-color:black;
+	margin-left:10px;
+	p{
+		color:white;
+		text-align:center;
+		font-family:cursive;
+	}
+}
+#topbox{
+	background-color:white;
+	height:300px;
+	padding:40 20 10 20;
+	.title1{
+		font-size:20px;
+		font-family:Comic Sans MS,cursive,sans-serif;
+		margin-bottom:20px;
+		margin-left:50px;
+	}
+}
+#tl1{
+	float:left; 
+	width:120px;
+	padding-right:30px;
+	padding-left:20px;
+	border-right:2px solid $back_color;
+	p{
+		text-align:right;
+		color:black;
+	}
+}
+#tl2{
+	float:left;
+	width:120px;
+	padding-right:30px;
+	padding-left:20px;
+	p{
+		text-align:right;
+		color:black;
+	}
+}
+#topcenter{
+	@for $variable from 1 through 3 {
+	#tc#{$variable}{
+		padding-right:10px;
+		padding-left:10px; }
+	}
+	@for $variable from 1 through 4 {
+	.text#{$variable}{
+		text-align:center;
+		margin-bottom:5px;
+		}
+	}
+	img{
+		width:120px;
+		display:block;
+  		margin:10 auto 20 auto;
+	}
+	.text1{
+		font-size: 25px;
+	}
+	.text2{
+		color:$main_color;
+		font-family:cursive;
+	}
+	.text4{
+		color:black;
+	}
+}
+#topright{
+	#tr1{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	.title2{
+		font-size:20px;
+		font-family:Comic Sans MS,cursive,sans-serif;
+		margin-bottom:20px;
+	}
+}
+#middle{
+	clear:left;
+	width:$origin_width;
+	height:750px;
+	margin:30 auto;
+	h1{
+		font-size:30px;
+		font-weight:bold;
+	}
+	h2{
+		font-size:20px;
+	}
+}
+$widthmidleft:550px;
+#middleleft{
+	float:left;
+	width:$origin_width/2;
+	margin-top:20px;
+	padding-right:20px;
+	.Timberland{
+		width:$widthmidleft;
+	}
+	#ml1{
+		margin-top:10px;
+		clear:left;
+		width:$widthmidleft;
+		position:relative;
+	}
+	#s1{
+		position:absolute;
+		width:170px;
+		left:0px;
+		}
+	#s2{
+		position:absolute;
+		width:170px;
+		left:$widthmidleft/3+8;
+	}
+	#s3{
+		position:absolute;
+		width:170px;
+		right:0px;
+	}
+}
+#middleright{
+	float:left;
+	width:$origin_width/2;
+	height:750px;
+	padding-left:30px;
+}
+#mr1{
+	clear:left;
+	height:160px;
+	width:570px;
+	margin:0 auto;
+	border-bottom:2px solid #CACACA;
+	#mr1left{
+		width:400px;
+		float:left;
+		#star{
+			float:left;
+		}
+		#pricetag1{
+			float:right;
+		}
+		#pricetag2{
+			width:400px;
+			clear:left;
+		}
+	}
+	#mr1right{
+		width:170px;
+		padding-left:40px;
+		float:left;
+		#pig{
+			width:100px;
+			display:block;
+			margin:auto;
+		}
+		p{
+			margin-top:15px;
+			text-align:center;
+			font-weight:bold;
+			font-size:25px;
+		}
+	}
+}
+#mr2{
+	clear:left;
+	width:570px;
+	height:400px;
+	#k1{
+		padding-top:20px;
+		text-align:right;
+	}
+	#k2{
+		width:150px;
+		height:50px;
+		margin-top:20px;
+		float:right;
+		img{
+			height:50px;
+		}
+		p{
+			height:50px;
+			padding-top:15px;
+			float:right;
+			text-align:right;
+		}
+	}
+	#dropdown{
+		clear:right;
+		width:570px;
+		height:50px;
+		#dropdown1{
+			float:right;
+		}
+		#dropdown2{
+			float:right;
+			margin-right:20px;
+		}
+		p{
+			margin-bottom:5px;
+		}
+	}
+}
+#adj{
+	clear:right;
+	#but1{
+		float:right;
+		margin-top:20px;
+		margin-bottom:50px;
+		width:180px;
+	}
+	p{
+		clear:right;
+		text-align:right;
+	}
+	#ic{
+		float:right;
+		width:240px;
+		padding:10px;
+		height:50px;
+		background-color:white;
+		img{
+			width:30px;
+		}
+		p{
+			padding-top:8px;
+			float:right;
+		}
+	}
+}
+#bottom{
+	clear:right;
+	width:$origin_width;
+	height:464px;
+	margin:30 auto 0 auto;
+	.tab1{
+		margin-right:5px;
+		background-color: $main_color;
+		a{
+			color:white;
+		}
+		a:hover{
+			color:black;
+		}
+	}
+	.tab2{
+		margin-right:5px;
+		background-color:white;
+		a{
+			color:black;
+		}
+	}
+}
+#textbox{
+	height:400px;
+	background-color:white;
+	padding:40 25 40 25;
+	.p1{
+		line-height: 120%;
+		margin-bottom:25px;
+		color:grey;
+	}
+	h3{
+		font-size:20px;
+	}
+	h4{
+		color:$main_color;
+	}
+	.text4{
+		line-height: 150%;
+		font-weight: bold;
+		color:grey;
+	}
+}
+#foot{
+	width:$origin_width;
+	background-color:$main_color;
+	padding-left:30;
+	padding-right:30;
+	height:150px;
+	margin:0 auto;
+}
+#footleft{
+	padding-top:30px;
+	.logo2{
+		width:280px;
+	}
+}
+#footcenter{
+	height:30px;
+	padding-top:65px;
+	ul{
+		float:left;
+	}
+	.g{
+		border-right:1px solid white;
+	}
+	li{
+		float:left;
+		padding-left:15px;
+		padding-right:15px;
+		a{
+			color:white;
+		}
+	}
+}
+#footright{
+	padding-top:50px;
+	.i{
+		float:right;
+		margin-left:10px;
+		width:40px;
+	}
+}
